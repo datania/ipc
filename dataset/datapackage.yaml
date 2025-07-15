@@ -1,0 +1,4 @@
+name: ipc
+resources:
+  - format: csv
+    path: ipc.csv
