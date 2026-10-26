@@ -16,6 +16,9 @@ jobs:
       - name: Setup uv
         uses: astral-sh/setup-uv@v6
 
+      - name: Check dataset publishing
+        run: make publish-check test-publish
+
       - name: Run data collection
         run: make run
 
